@@ -1,0 +1,6 @@
+{
+  "name": "AwanKu",
+  "description": "Website penyimpanan cloud pribadi dengan akses login aman, manajemen struktur folder lengkap, dan penyimpanan langsung di storage internal PC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

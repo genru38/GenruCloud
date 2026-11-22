@@ -1,0 +1,181 @@
+{
+  "users": [
+    {
+      "id": "usr-nadia-demo",
+      "name": "Nadia Kusuma",
+      "email": "nadia@awanku.id",
+      "avatarUrl": "/src/assets/images/avatar_nadia_1795363492726.jpg",
+      "createdAt": "2026-11-22T16:17:58.598Z",
+      "passwordSalt": "3e7acdfb0965569b01b5823497b84b59",
+      "passwordHash": "ed9df6c320629061721e2b4700e876e3c1bc9878ca41d8ce7f91be93e7e0cd45735ed760db8d09bf3d844b48e492eb4e601c017f03aa6e0bb5bc692b4a3fbb90"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "1c3dca91387df740b2441dd67e414567045718acb3c7d014fd279e5471bc6fa8",
+      "userId": "usr-nadia-demo",
+      "createdAt": "2026-11-22T16:24:55.634Z"
+    }
+  ],
+  "folders": [
+    {
+      "id": "fld-dokumen",
+      "userId": "usr-nadia-demo",
+      "name": "Dokumen Kerja",
+      "parentId": null,
+      "color": "blue",
+      "createdAt": "2026-11-20T16:17:58.681Z",
+      "updatedAt": "2026-11-20T16:17:58.681Z",
+      "trashedAt": null
+    },
+    {
+      "id": "fld-laporan-q4",
+      "userId": "usr-nadia-demo",
+      "name": "Laporan Q4",
+      "parentId": "fld-dokumen",
+      "color": "slate",
+      "createdAt": "2026-11-21T20:17:58.682Z",
+      "updatedAt": "2026-11-21T20:17:58.682Z",
+      "trashedAt": null
+    },
+    {
+      "id": "fld-foto",
+      "userId": "usr-nadia-demo",
+      "name": "Foto & Media",
+      "parentId": null,
+      "color": "emerald",
+      "createdAt": "2026-11-21T10:17:58.682Z",
+      "updatedAt": "2026-11-21T10:17:58.682Z",
+      "trashedAt": null
+    },
+    {
+      "id": "fld-desain",
+      "userId": "usr-nadia-demo",
+      "name": "Proyek Desain",
+      "parentId": null,
+      "color": "amber",
+      "createdAt": "2026-11-22T02:17:58.682Z",
+      "updatedAt": "2026-11-22T02:17:58.682Z",
+      "trashedAt": null
+    }
+  ],
+  "files": [
+    {
+      "id": "fil-panduan",
+      "userId": "usr-nadia-demo",
+      "name": "Panduan Penyimpanan AwanKu.md",
+      "folderId": null,
+      "mimeType": "text/markdown",
+      "size": 565,
+      "relativeDiskPath": "Panduan Penyimpanan AwanKu.md",
+      "starred": true,
+      "createdAt": "2026-11-22T12:17:58.682Z",
+      "updatedAt": "2026-11-22T12:17:58.682Z",
+      "trashedAt": null
+    },
+    {
+      "id": "fil-tugas",
+      "userId": "usr-nadia-demo",
+      "name": "Daftar Tugas Mingguan.txt",
+      "folderId": null,
+      "mimeType": "text/plain",
+      "size": 243,
+      "relativeDiskPath": "Daftar Tugas Mingguan.txt",
+      "starred": false,
+      "createdAt": "2026-11-22T08:17:58.683Z",
+      "updatedAt": "2026-11-22T16:25:02.513Z",
+      "trashedAt": null
+    },
+    {
+      "id": "fil-anggaran",
+      "userId": "usr-nadia-demo",
+      "name": "Anggaran Operasional 2026.csv",
+      "folderId": "fld-dokumen",
+      "mimeType": "text/csv",
+      "size": 174,
+      "relativeDiskPath": "Dokumen Kerja/Anggaran Operasional 2026.csv",
+      "starred": false,
+      "createdAt": "2026-11-21T14:17:58.683Z",
+      "updatedAt": "2026-11-21T14:17:58.683Z",
+      "trashedAt": null
+    },
+    {
+      "id": "fil-rapat",
+      "userId": "usr-nadia-demo",
+      "name": "Catatan Rapat Tim.md",
+      "folderId": "fld-dokumen",
+      "mimeType": "text/markdown",
+      "size": 215,
+      "relativeDiskPath": "Dokumen Kerja/Catatan Rapat Tim.md",
+      "starred": false,
+      "createdAt": "2026-11-21T08:17:58.683Z",
+      "updatedAt": "2026-11-21T08:17:58.683Z",
+      "trashedAt": null
+    },
+    {
+      "id": "fil-ringkasan-q4",
+      "userId": "usr-nadia-demo",
+      "name": "Ringkasan Kinerja Q4.md",
+      "folderId": "fld-laporan-q4",
+      "mimeType": "text/markdown",
+      "size": 154,
+      "relativeDiskPath": "Dokumen Kerja/Laporan Q4/Ringkasan Kinerja Q4.md",
+      "starred": true,
+      "createdAt": "2026-11-22T04:17:58.683Z",
+      "updatedAt": "2026-11-22T04:17:58.683Z",
+      "trashedAt": null
+    },
+    {
+      "id": "fil-konfig",
+      "userId": "usr-nadia-demo",
+      "name": "konfigurasi-storage.json",
+      "folderId": "fld-laporan-q4",
+      "mimeType": "application/json",
+      "size": 122,
+      "relativeDiskPath": "Dokumen Kerja/Laporan Q4/konfigurasi-storage.json",
+      "starred": false,
+      "createdAt": "2026-11-21T22:17:58.684Z",
+      "updatedAt": "2026-11-21T22:17:58.684Z",
+      "trashedAt": null
+    },
+    {
+      "id": "fil-bali",
+      "userId": "usr-nadia-demo",
+      "name": "Terasering Ubud Pagi.jpg",
+      "folderId": "fld-foto",
+      "mimeType": "image/jpeg",
+      "size": 1138706,
+      "relativeDiskPath": "Foto & Media/Terasering Ubud Pagi.jpg",
+      "starred": true,
+      "createdAt": "2026-11-22T06:17:58.684Z",
+      "updatedAt": "2026-11-22T06:17:58.684Z",
+      "trashedAt": null
+    },
+    {
+      "id": "fil-studio",
+      "userId": "usr-nadia-demo",
+      "name": "Studio Arsitektur Kayu.jpg",
+      "folderId": "fld-desain",
+      "mimeType": "image/jpeg",
+      "size": 823525,
+      "relativeDiskPath": "Proyek Desain/Studio Arsitektur Kayu.jpg",
+      "starred": false,
+      "createdAt": "2026-11-22T10:17:58.685Z",
+      "updatedAt": "2026-11-22T10:17:58.685Z",
+      "trashedAt": null
+    },
+    {
+      "id": "fil-sistem-desain",
+      "userId": "usr-nadia-demo",
+      "name": "Spesifikasi Sistem Desain.md",
+      "folderId": "fld-desain",
+      "mimeType": "text/markdown",
+      "size": 222,
+      "relativeDiskPath": "Proyek Desain/Spesifikasi Sistem Desain.md",
+      "starred": false,
+      "createdAt": "2026-11-22T01:17:58.686Z",
+      "updatedAt": "2026-11-22T01:17:58.686Z",
+      "trashedAt": null
+    }
+  ]
+}
